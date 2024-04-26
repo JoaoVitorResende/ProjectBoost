@@ -1,0 +1,61 @@
+[gd_scene load_steps=3 format=3 uid="uid://catatmc3pex6r"]
+
+[ext_resource type="Material" uid="uid://cu34l4sevj6sw" path="res://Project/Art/Material/Brown.tres" id="1_rv6b2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kn08o"]
+albedo_color = Color(0.337255, 0.188235, 0.0705882, 1)
+
+[node name="Floor2" type="CSGBox3D" groups=["Hazard"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, 0)
+material_override = ExtResource("1_rv6b2")
+use_collision = true
+size = Vector3(44.055, 8, 5)
+material = SubResource("StandardMaterial3D_kn08o")
+
+[node name="Celling" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.5115, 7.54828, 0.0228996)
+material_overlay = ExtResource("1_rv6b2")
+size = Vector3(2.7915, 7.03433, 4.53412)
+
+[node name="Celling9" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.3328, 7.54828, 0.0267639)
+size = Vector3(2.7915, 7.03433, 4.53412)
+
+[node name="Celling10" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.3328, 14.7095, 0.0267639)
+size = Vector3(2.7915, 7.03433, 4.53412)
+
+[node name="Celling11" type="CSGBox3D" parent="."]
+transform = Transform3D(0.590662, -0.806919, 0, 0.806919, 0.590662, 0, 0, 0, 1, 17.9282, 16.8277, 0.0267639)
+size = Vector3(2.7915, 7.03433, 4.53412)
+
+[node name="Celling2" type="CSGBox3D" parent="."]
+transform = Transform3D(0.157055, 0.98759, 0, -0.98759, 0.157055, 0, 0, 0, 1, -21.32, 11.8635, 0.0267639)
+size = Vector3(2.7915, 7.03433, 4.53412)
+
+[node name="Celling3" type="CSGBox3D" parent="."]
+transform = Transform3D(0.938125, 0.346297, 0, -0.346297, 0.938125, 0, 0, 0, 1, -17.8779, 16.1326, 0.0267639)
+material_override = ExtResource("1_rv6b2")
+size = Vector3(2.7915, 7.03433, 4.53412)
+
+[node name="Celling4" type="CSGBox3D" parent="."]
+transform = Transform3D(0.0774671, 0.996995, 0, -0.996995, 0.0774671, 0, 0, 0, 1, -13.5852, 18.1168, -0.0288804)
+size = Vector3(2.7915, 7.03433, 4.53412)
+
+[node name="Celling5" type="CSGBox3D" parent="."]
+transform = Transform3D(0.0774671, 0.996995, 0, -0.996995, 0.0774671, 0, 0, 0, 1, -7.26394, 18.1168, -0.0288804)
+size = Vector3(2.7915, 7.03433, 4.53412)
+
+[node name="Celling6" type="CSGBox3D" parent="."]
+transform = Transform3D(0.0774671, 0.996995, 0, -0.996995, 0.0774671, 0, 0, 0, 1, -0.597189, 18.1168, -0.0288804)
+size = Vector3(2.7915, 7.03433, 4.53412)
+
+[node name="Celling7" type="CSGBox3D" parent="."]
+transform = Transform3D(0.0774671, 0.996995, 0, -0.996995, 0.0774671, 0, 0, 0, 1, 5.63597, 18.1168, -0.0288804)
+material_override = ExtResource("1_rv6b2")
+size = Vector3(2.7915, 7.03433, 4.53412)
+
+[node name="Celling8" type="CSGBox3D" parent="."]
+transform = Transform3D(0.0774671, 0.996995, 0, -0.996995, 0.0774671, 0, 0, 0, 1, 12.3094, 18.1168, -0.0288804)
+material_override = ExtResource("1_rv6b2")
+size = Vector3(2.7915, 7.03433, 4.53412)

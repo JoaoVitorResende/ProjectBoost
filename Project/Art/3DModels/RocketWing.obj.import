@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c3we8mii8xnmf"
+path="res://.godot/imported/RocketWing.obj-10425e08aba1c98cfc90413d8f059543.mesh"
+
+[deps]
+
+files=["res://.godot/imported/RocketWing.obj-10425e08aba1c98cfc90413d8f059543.mesh"]
+
+source_file="res://Project/Art/3DModels/RocketWing.obj"
+dest_files=["res://.godot/imported/RocketWing.obj-10425e08aba1c98cfc90413d8f059543.mesh", "res://.godot/imported/RocketWing.obj-10425e08aba1c98cfc90413d8f059543.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
